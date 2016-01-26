@@ -1,4 +1,8 @@
 language: scala
+build_image: drydock/u12scaall:tip
+
+services:
+  - mysql
 
 scala:
   - 2.10.0
